@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+  }
+
+.wave-container {
+    position: relative;
+    background: rgba(55, 210, 237, 0.412);
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+    height: 100vh;
+    background-image: url('./images/pattern-background-desktop.svg');
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card-container {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    width: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.hero {
+    width: 100%;
+}
+
+.card-container p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.one {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.second {
+    display: flex;
+    align-items: center;
+}
+
+.third span {
+    font-weight: bolder;
+}
+
+.one a {
+    color: blue;
+    font-weight: bolder;
+}
+
+.one a:hover {
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+}
+
+button {
+    padding: 13px;
+    width: auto;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: auto;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: hsla(245, 75%, 52%, 0.722);
+}
+
+.order-cancel {
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+}
+
+
+.order-cancel:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
